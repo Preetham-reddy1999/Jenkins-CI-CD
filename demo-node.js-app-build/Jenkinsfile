@@ -10,7 +10,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 echo "Cloning the repository..."
-                git 'git ls-remote -h -- https://Preetham-reddy1999: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@github.com/Preetham-reddy1999/Jenkins-CI-CD HEAD'  // Replace with your repo URL
+                git 'https://github.com/Preetham-reddy1999/Jenkins-CI-CD.git' // Replace with your repo URL
             }
         }
         stage('Install Dependencies') {
