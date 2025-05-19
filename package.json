@@ -1,14 +1,24 @@
 {
-    "name": "my-node-app",
-    "version": "1.0.0",
-    "description": "A simple Node.js application",
-    "main": "app.js",
-    "scripts": {
-      "start": "node app.js",
-      "test": "echo \"No tests yet\" && exit 0"
-    },
-    "author": "Your Name",
-    "license": "MIT",
-    "dependencies": {}
-  }
-  
+  "name": "my-node-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Preetham-reddy1999/Jenkins-CI-CD.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Preetham-reddy1999/Jenkins-CI-CD/issues"
+  },
+  "homepage": "https://github.com/Preetham-reddy1999/Jenkins-CI-CD#readme"
+}
